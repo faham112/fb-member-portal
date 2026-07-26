@@ -10,12 +10,6 @@ class FBMP_DB {
 		return $wpdb->prefix . 'fbmp_orders';
 	}
 
-	/**
-	 * Simple orders/payments table. Wire your real payment gateway
-	 * (Stripe, JazzCash, Easypaisa, etc.) to insert rows here on
-	 * successful payment. This plugin ships with the schema + a
-	 * demo insert so the dashboard has something to render.
-	 */
 	public static function create_tables() {
 		global $wpdb;
 		$table_name      = self::orders_table();
