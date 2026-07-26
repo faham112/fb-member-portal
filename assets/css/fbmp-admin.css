@@ -1,0 +1,71 @@
+.fbmp-wrap .fbmp-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.fbmp-wrap .fbmp-header .dashicons {
+	font-size: 28px;
+	width: 28px;
+	height: 28px;
+	color: #4f46e5;
+}
+.fbmp-wrap .fbmp-tabs {
+	margin-bottom: 20px;
+}
+.fbmp-cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+	margin-bottom: 24px;
+}
+.fbmp-card {
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 10px;
+	padding: 18px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.fbmp-card-label {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	color: #6b7280;
+	font-weight: 600;
+}
+.fbmp-card-value {
+	font-size: 28px;
+	font-weight: 700;
+	color: #1f2937;
+}
+.fbmp-panel {
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.fbmp-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+}
+.fbmp-badge-premium {
+	background: #fef3c7;
+	color: #92400e;
+}
+.fbmp-badge-free {
+	background: #f3f4f6;
+	color: #374151;
+}
+.fbmp-inline-form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+}
